@@ -11,7 +11,7 @@ const Hnavbar = (props) => {
                     <div className="navbar-start">
                         {props.items.map((item) => <><NavLink className="hnavbar-item" activeClassName="is-active" to={item.link}>
                             {item.text}
-                        </NavLink><br/></>
+                        </NavLink><br /></>
                         )}
                     </div>
                 </div>
@@ -21,3 +21,12 @@ const Hnavbar = (props) => {
 };
 
 export default Hnavbar;
+/*
+ {props.items.map((item) => <><NavLink className="hnavbar-item" activeClassName="is-active" to={item.link}>
+                            {item.text}
+                        </NavLink><br/></>
+ */
+/*
+ {props.items.map((item) => <><a className="hnavbar-item" href={item.link}>
+                            {item.text}
+ */
