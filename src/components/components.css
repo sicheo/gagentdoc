@@ -1,0 +1,97 @@
+.navbar-item {
+    margin: 5px 10px 5px 10px;
+    color: darkcyan;
+    text-decoration: none;
+}
+
+.hnavbar-item {
+    margin: 5px 5px 5px 5px;
+    color: darkcyan;
+    text-decoration: none;
+}
+
+.classNavbar {
+    position: sticky;
+    margin: 5px 5px 5px 5px;
+    top: 0;
+    z-index:9999;
+    background-color: white;
+}
+
+.classPage {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: auto;
+    align-items: start;
+    margin: 5px 5px 5px 5px;
+}
+
+.classPageContent {
+    display: block;
+    align-items:start;
+    margin: 5px 5px 5px 5px;
+}
+
+.classPageNavigation {
+    /*border: 2px solid lightblue;*/
+    background-color: #f5f6fc;
+}
+
+classPageContent {
+    width: 80%;
+}
+
+.classMaintitle {
+    /*border: 2px solid lightblue;*/
+}
+
+.classMaintitle h2 {
+    text-align: center;
+    color: darkcyan;
+}
+
+    .classMaintitle h3 {
+        text-align: center;
+    }
+
+.HomeUpper {
+    /*border: 2px solid yellow;*/
+    padding: 5px 50px 5px 5px;
+    text-align: center;
+}
+
+
+.HomeLower {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: auto;
+    justify-items: left;
+    padding: 5px 10% 5px 10%;
+}
+
+.classNavwin {
+    margin: 10px 10px 10px 10px;
+    /*border: 2px dashed rgba(114, 186, 94, 0.35);*/
+}
+
+.classNavwinUpper {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: auto;
+    align-items:center
+}
+.classNavwinImage {
+    width: 30%;
+    align-content:baseline
+}
+
+.classPageSideImage {
+    width: 2%;
+}
+
+.classFooter {
+    border: 2px solid lightblue;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
