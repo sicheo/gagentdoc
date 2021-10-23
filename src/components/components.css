@@ -10,6 +10,10 @@
     text-decoration: none;
 }
 
+.hnavbar-title {
+    color:dimgrey;
+}
+
 .classNavbar {
     position: sticky;
     margin: 5px 5px 5px 5px;
@@ -87,6 +91,17 @@ classPageContent {
 
 .classPageSideImage {
     width: 2%;
+    padding-right: 20px;
+}
+
+.classPageSideSpan {
+    color: dimgrey;
+    font-weight:bold;
+    font-size:large;
+}
+
+.classPageSideHead {
+    padding: 2px 2px 2px 2px;
 }
 
 .classFooter {
