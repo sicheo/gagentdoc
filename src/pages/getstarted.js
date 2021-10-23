@@ -6,9 +6,6 @@ import Hnavbar from "../components/hnavbar";
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 
-
-
-
 function Getstarted() {
     const [navs, setNavs] = useState([]);
     const text = "##Get started  \nFollow step by step tutorial to install and set up your GAGENT app"
@@ -33,7 +30,7 @@ function Getstarted() {
             { key: 11, text: "Connect with OPCUA", link: "/markdown/connopcua", type: "link" },
             { key: 12, text: "Connect with MQTT", link: "/markdown/connmqtt", type: "link" },
             { key: 13, text: "Connect with Active Directory", link: "/markdown/connad", type: "link" },
-        ]), 1000);
+        ]), 100);
     }, []);
 
     const callback = useCallback((markdown) => {

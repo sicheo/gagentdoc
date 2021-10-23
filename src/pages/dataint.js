@@ -22,7 +22,7 @@ function Dataint() {
             { key: 6, text: "Security Control", link: "/markdown/dataintsecurity", type: "link" },
             { key: 7, text: "Digital Signatures", link: "/markdown/dataintdigsig", type: "link" },
             { key: 8, text: "Training", link: "/markdown/datainttrain", type: "link" },
-        ]), 1000);
+        ]), 100);
     }, []);
 
     const callback = useCallback((markdown) => {

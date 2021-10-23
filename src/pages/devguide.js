@@ -25,11 +25,11 @@ function Devguide() {
             { key: 10, text: "Proprietary Drivers", link: "/markdown/driverprop", type: "link" },
             { key: 11, text: "Write a new source driver", link: "/markdown/driverdev", type: "link" },
             { key: 12, text: "Destination Pluggable drivers", link: "", type: "title" },
-            { key: 12, text: "Destination driver interface", link: "/markdown/destredis", type: "link" },
+            { key: 12, text: "Destination driver interface", link: "/markdown/destif", type: "link" },
             { key: 13, text: "Redis Cluster Driver", link: "/markdown/destredis", type: "link" },
             { key: 14, text: "MQTT Broker Driver", link: "/markdown/destmqtt", type: "link" },
             { key: 15, text: "Write a new destination driver", link: "/markdown/destnew", type: "link" },
-        ]), 1000);
+        ]), 100);
     }, []);
 
     const callback = useCallback((markdown) => {

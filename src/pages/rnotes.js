@@ -15,7 +15,7 @@ function Rnotes() {
             { key: 0, text: "Release Notes", link: "", type: "title" },
             { key: 1, text: "Last Release", link: "/markdown/rnlast", type: "link" },
             { key: 2, text: "Release History", link: "/markdown/rnhist", type: "link" },
-        ]), 1000);
+        ]), 100);
     }, []);
 
     const callback = useCallback((markdown) => {

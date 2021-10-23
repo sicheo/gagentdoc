@@ -1,7 +1,7 @@
-import React, { useState} from "react";
-import { NavLink } from "react-router-dom";
+import React, { useState } from "react";
+const axios = require('axios')
 // Please consider https://github.com/rsuite/rsuite
-import './components.css';
+
 const Hnavbar = (props) => {
     const [markdown, setMarkdown] = useState("")
     let md = ""
@@ -9,8 +9,21 @@ const Hnavbar = (props) => {
     const loadMarkdown = ((name) => {
         // HERE AJAX CALL TO GET MARKDOWNS
         md = "## Markdown  \n" + name
-        setMarkdown(md);
-        props.callback(md)
+        axios.get(name)
+            .then(function (response) {
+                // handle success
+                md = response.data
+                console.log(response);
+            })
+            .catch(function (error) {
+                // handle error
+                console.log(error);
+            })
+            .then(function () {
+                // always executed
+                setMarkdown(md);
+                props.callback(md)
+            });
     })
 
     const execMarkdown = function (e, mdn) {
@@ -36,14 +49,3 @@ const Hnavbar = (props) => {
 };
 
 export default Hnavbar;
-/*
- {props.items.map((item) => <><NavLink className="hnavbar-item" activeClassName="is-active" to={item.link}>
-                            {item.text}
-                        </NavLink><br/></>
- */
-/*
- {props.items.map((item) => <><a className="hnavbar-item" href={item.link}>
-                            {item.text}
-                             </a><br/></>
-                             onClick={execMarkdown(item.link)
- */

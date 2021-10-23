@@ -23,7 +23,7 @@ function Apiref() {
             { key: 7, text: "Modify Agent", link: "/markdown/agentmodify", type: "link" },
             { key: 8, text: "Delete Agent", link: "/markdown/agentdel", type: "link" },
             { key: 9, text: "Get Log", link: "/markdown/logs", type: "link" },
-        ]), 1000);
+        ]), 100);
     }, []);
 
     const callback = useCallback((markdown) => {
