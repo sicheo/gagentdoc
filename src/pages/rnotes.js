@@ -5,7 +5,7 @@ import remarkGfm from 'remark-gfm'
 
 function Rnotes() {
     const [navs, setNavs] = useState([]);
-    const text = "Learn about new features, deprecations, improvements, and fixes  \nin GAGENT from regular release notes."
+    const text = "## Release Notes  \nLearn about new features, deprecations, improvements, and fixes  \nin GAGENT from regular release notes."
     const [markdown, setMarkdown] = useState(text)
 
 

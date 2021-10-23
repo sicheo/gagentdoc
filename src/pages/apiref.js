@@ -6,7 +6,7 @@ import remarkGfm from 'remark-gfm'
 
 function Apiref() {
     const [navs, setNavs] = useState([]);
-    const text = "Consult the documentation for the server API."
+    const text = "## Api Reference  \nConsult the documentation for the server API.  \n  \n![alt text](Api.png 'Api')"
     const [markdown, setMarkdown] = useState(text)
 
 

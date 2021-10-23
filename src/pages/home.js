@@ -10,7 +10,7 @@ function Home() {
         <div className="Home">
             <div className="HomeUpper">
                 <img src="gagentlogo.png" alt="Home" className="classNavwinImage" style={{ width: "20%" }} />
-                <Maintitle title="Documentazione" subtitle="Examples, tutorials, references, APIs, and best practices" />
+                <Maintitle title="Documentation" subtitle="Examples, tutorials, references, APIs, and best practices" />
                 <Searchcontainer />
             </div>
             <div className="HomeLower">

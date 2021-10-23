@@ -8,7 +8,7 @@ import remarkGfm from 'remark-gfm'
 
 function Getstarted() {
     const [navs, setNavs] = useState([]);
-    const text = "##Get started  \nFollow step by step tutorial to install and set up your GAGENT app"
+    const text = "## Get started  \nFollow step by step tutorial to install and set up your GAGENT app  \n  \n![alt text](DepSteps.png 'DepStep')"
     const [markdown, setMarkdown] = useState(text)
    
 

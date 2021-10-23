@@ -6,7 +6,7 @@ import remarkGfm from 'remark-gfm'
 
 function Dataint() {
     const [navs, setNavs] = useState([]);
-    const text = "Explore data integrity compliance features."
+    const text = "## Data Integrity  \nExplore data integrity compliance features.  \n  \n![alt text](Compliance.png 'Compliance')"
     const [markdown, setMarkdown] = useState(text)
 
 

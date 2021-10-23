@@ -5,7 +5,7 @@ import remarkGfm from 'remark-gfm'
 
 function Devguide() {
     const [navs, setNavs] = useState([]);
-    const text = "Explore detailed descriptions of concepts, architecture,  \nreferences, and examples for implementing various features."
+    const text = "## Development Guide  \nExplore detailed descriptions of concepts, architecture,  \nreferences, and examples for implementing various features.  \n  \n![alt text](Develop.png 'Develop')"
     const [markdown, setMarkdown] = useState(text)
 
 
