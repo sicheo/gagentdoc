@@ -26,10 +26,11 @@ function Getstarted() {
             { key: 7, text: "Configure agent source", link: "/markdown/confsource", type: "link" },
             { key: 8, text: "Configure agent destination", link: "/markdown/confdest", type: "link" },
             { key: 9, text: "Configure agent database", link: "/markdown/confdb", type: "link" },
-            { key: 10, text: "Connect to factory IT", link: "", type: "text" },
-            { key: 11, text: "Connect with OPCUA", link: "/markdown/connopcua", type: "link" },
-            { key: 12, text: "Connect with MQTT", link: "/markdown/connmqtt", type: "link" },
-            { key: 13, text: "Connect with Active Directory", link: "/markdown/connad", type: "link" },
+            { key: 10, text: "Test configuration", link: "/markdown/conftest", type: "link" },
+            { key: 11, text: "Connect to factory IT", link: "", type: "text" },
+            { key: 12, text: "Connect with OPCUA", link: "/markdown/connopcua", type: "link" },
+            { key: 13, text: "Connect with MQTT", link: "/markdown/connmqtt", type: "link" },
+            { key: 14, text: "Connect with Active Directory", link: "/markdown/connad", type: "link" },
         ]), 100);
     }, []);
 

@@ -37,7 +37,7 @@ const Hnavbar = (props) => {
             <div className="container">
                 <div className={`hnavbar-menu`}>
                     <div className="navbar-start">
-                        {props.items.map((item) => item.type == 'link'?<><a className="hnavbar-item" href={item.link} onClick={e => execMarkdown(e,item.link)} >
+                        {props.items.map((item) => item.type == 'link' ? <><a className="hnavbar-item" id={item.link} href={item.link} onClick={e => execMarkdown(e,item.link)} >
                             {item.text}
                         </a><br /></>
                             : <> <h4 className="hnavbar-title"> {item.text} </h4></>)}
